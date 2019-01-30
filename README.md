@@ -8,13 +8,14 @@
  I also added a service worker script that caches requests and makes the site accessible when a user is offline.
 
  ## How to run the application
+ **On your local machine:**
 
  - Clone or download the project from: `https://github.com/fredbouk/restaurant-reviews-app.git`
 
-- From inside this directory, launch a local client server using Python from your terminal:
+- In this folder, start up a simple HTTP server to serve up the site files. You can launch a local client server using Python from your terminal:
 `python -m http.server 8000`
     
-- Visit the site in your browser at http://<span></span>localhost:8000
+- With your server running, visit the site in your browser at http://<span></span>localhost:8000
 
 
 ![Screenshot](img/screenshot.jpg?raw=true")
